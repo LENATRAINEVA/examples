@@ -74,7 +74,13 @@ public class Lambda {
         return total;
     }
 
-
+    /**
+     * Sum calculation
+     * ( Predicate - Определяет, соответствует ли входной объект некоторым критериям. )
+     * @param numbers
+     * @param p
+     * @return
+     */
 
     public int sumAll(List<Integer> numbers, Predicate<Integer> p) {
         int total = 0;
